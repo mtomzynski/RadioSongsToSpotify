@@ -18,7 +18,7 @@ Radio doesn't provide API. However, data (currently played song) can be get on r
 ## Goal of the Project
 The project has an educational purpose.
 There are two goals:
-1. Read song titles from radio's website and save it to the file. (working already)
+1. Read song titles from radio's website and save it to the file. (POC already working - code will be delivered soon)
 2. Load saved song titles and add them to dedicated Spotify playlist. (to be done)
 
 ## Technology
@@ -28,6 +28,7 @@ In the project there were used:
 * Spotify Web API (to be done)
 
 ## Implementation
-Note: for now I have prepared the Python script running on AWS E2C micro machine. I used 'screen' command to run the script in the background.
+Note: for now I have prepared the Python script running on AWS E2C micro machine. I run .py script in the backgroud. However, this is only just for POC.
+In the final solution, I would like to run script on schedule (probably using CRON).
 
 I'm working on PDF file where I'll present and describe details of the project.
